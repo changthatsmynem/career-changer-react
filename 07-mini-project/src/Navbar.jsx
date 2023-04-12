@@ -1,13 +1,20 @@
-
+import Home from "./Home";
+import "./assets/style/Navbar.css";
 
 const Navbar = () => {
-    return (
-        <ul>
-            <li>Home</li>
-            <li>Signup</li>
-            <li>Login</li>
-        </ul>
-    )
-}
+  return (
+    <ul>
+      <li>
+        <a href={"/"}>Home</a>
+      </li>
+      <li>
+        <a href={"/signup"}>Signup</a>
+      </li>
+      <li>
+        <a href={"/login"}>Login</a>
+      </li>
+    </ul>
+  );
+};
 
-export default Navbar
+export default Navbar;

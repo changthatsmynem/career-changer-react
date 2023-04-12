@@ -1,8 +1,8 @@
+import Navbar from "./Navbar";
+import "./assets/style/User.css";
 
 const User = () => {
-    return (
-        <div>USER</div>
-    )
-}
+  return <div className="user">THIS IS HOME PAGE</div>;
+};
 
-export default User
+export default User;
